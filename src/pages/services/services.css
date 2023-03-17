@@ -1,0 +1,46 @@
+*{
+font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+Section h1 {
+    color: goldenrod;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    background: #700332;
+}
+
+Section p{
+     padding-top: 20px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 20px;
+     color: #FEA303;
+     font-size: larger;
+     background: #626895;
+}
+Section .Card {
+    margin: 1em;
+}
+
+.Card-title h2{
+    color: darkgoldenrod;
+    text-align: center;
+    background: #700332;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
