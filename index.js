@@ -1,68 +1,36 @@
-class Node {
-	/// value;
-	/// next;
+import React from 'react';
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
-	constructor(value) {
-		this.value = value;
+const Sidebar = ({isOpen, toggle}) => {
+  return (
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+        <Icon onClick={toggle}>
+            <CloseIcon />
+        </Icon>
+        <SidebarWrapper>
+            <SidebarMenu>
+                <SidebarLink to="home" onClick={toggle}>
+                    Home
+                    </SidebarLink>
+                    <SidebarLink to="about" onClick={toggle}>
+                        About Us
+                </SidebarLink>
+                <SidebarLink to="services" onClick={toggle}>
+                    Services
+                    </SidebarLink>
+                    <SidebarLink to="gallery" onClick={toggle}>
+                        Gallery
+                        </SidebarLink>
+                        <SidebarLink to="signup" onClick={toggle}>
+                            Sign Up
+                            </SidebarLink>
+            </SidebarMenu>
+        <SideBtnWrap>
+        <SidebarRoute to="/signin">Sign In</SidebarRoute>
+        </SideBtnWrap>
+        </SidebarWrapper>
+    </SidebarContainer>
+  );
+};
 
-		// TODO: Remove this when targeting Node.js 12.
-		this.next = undefined;
-	}
-}
-
-class Queue {
-	// TODO: Use private class fields when targeting Node.js 12.
-	// #_head;
-	// #_tail;
-	// #_size;
-
-	constructor() {
-		this.clear();
-	}
-
-	enqueue(value) {
-		const node = new Node(value);
-
-		if (this._head) {
-			this._tail.next = node;
-			this._tail = node;
-		} else {
-			this._head = node;
-			this._tail = node;
-		}
-
-		this._size++;
-	}
-
-	dequeue() {
-		const current = this._head;
-		if (!current) {
-			return;
-		}
-
-		this._head = this._head.next;
-		this._size--;
-		return current.value;
-	}
-
-	clear() {
-		this._head = undefined;
-		this._tail = undefined;
-		this._size = 0;
-	}
-
-	get size() {
-		return this._size;
-	}
-
-	* [Symbol.iterator]() {
-		let current = this._head;
-
-		while (current) {
-			yield current.value;
-			current = current.next;
-		}
-	}
-}
-
-module.exports = Queue;
+export default Sidebar;
