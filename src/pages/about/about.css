@@ -1,0 +1,33 @@
+.Carousel {
+    background: #626895;
+    width: 100%;
+    transition: 30ease;
+    height: 150%;
+    text-align: center;
+}
+
+.Carousel h3{
+    background-color: #970C10;
+}
+
+.Carousel p{
+    background-color: #FFC363;
+    color: white;
+}
+
+
+.Carousel h5{
+    background-color: #E10032;
+}
+
+.Container{
+    background-color: #FFC363;
+    width: 100%;
+    color: white;
+}
+
+.Container h3{
+    background-color: #970C10;
+    text-align: center;
+}
+

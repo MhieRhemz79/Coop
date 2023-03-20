@@ -16,7 +16,7 @@ function Gallery () {
       <Navbar />
 
       <section>
-      <h1 style={{textAlign: 'center'}}>Gallery for Social Commitments</h1>
+      <h1 style={{textAlign: 'center'}}>Social Commitments</h1>
       <br></br>
       <h2 style={{textAlign: 'center', color: 'darkgoldenrod'}}>Pen-Coop Cafe Soft Opening</h2>
       </section>
