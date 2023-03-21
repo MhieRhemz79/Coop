@@ -8,7 +8,6 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { Container } from 'react-bootstrap';
 
-
   function About({src, alt, title, content, width, height}) {
     return (
       <>
