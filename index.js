@@ -1,36 +1,14 @@
 import React from 'react';
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
-
-const Sidebar = ({isOpen, toggle}) => {
+import Video from '../../videos/video2.mp4';
+import { HeroContainer, HeroBg, VideoBg } from './HeroElements';
+const HeroSection = () => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
-        <Icon onClick={toggle}>
-            <CloseIcon />
-        </Icon>
-        <SidebarWrapper>
-            <SidebarMenu>
-                <SidebarLink to="home" onClick={toggle}>
-                    Home
-                    </SidebarLink>
-                    <SidebarLink to="about" onClick={toggle}>
-                        About Us
-                </SidebarLink>
-                <SidebarLink to="services" onClick={toggle}>
-                    Services
-                    </SidebarLink>
-                    <SidebarLink to="gallery" onClick={toggle}>
-                        Gallery
-                        </SidebarLink>
-                        <SidebarLink to="signup" onClick={toggle}>
-                            Sign Up
-                            </SidebarLink>
-            </SidebarMenu>
-        <SideBtnWrap>
-        <SidebarRoute to="/signin">Sign In</SidebarRoute>
-        </SideBtnWrap>
-        </SidebarWrapper>
-    </SidebarContainer>
+    <HeroContainer>
+        <HeroBg>
+            <VideoBg autoPlay loop src={Video} type='video2/.mp4' />
+        </HeroBg>
+    </HeroContainer>
   );
 };
 
-export default Sidebar;
+export default HeroSection;
