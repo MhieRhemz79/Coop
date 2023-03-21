@@ -19,7 +19,8 @@ const Signin = () => {
     <Sidebar />
     <Navbar />
 
-    <page>
+
+
     <div className="cover">
       <h1>Signin</h1>
       <input type="text" placeholder="username/email address" />
@@ -35,7 +36,6 @@ const Signin = () => {
       <p>Username or Password Incorrect</p>
     </div>
     </div>
-    </page>
     <Footer />
 
       </>

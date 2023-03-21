@@ -3,7 +3,10 @@
     box-sizing: border-box;
 }
 
-
+.page{
+    display: flex;
+    justify-content: center;
+}
 .cover {
     background-color: green;
     color: darkgoldenrod;
