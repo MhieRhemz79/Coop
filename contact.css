@@ -1,0 +1,36 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.row h1{
+    text-align: right;
+}
+
+.contact_form .form-control {
+    padding: 1.37rem .75rem;
+    padding-top: 20px;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    border-radius: 0 ! important;
+    border: 1px solid darkgoldenrod;
+}
+.row {
+    color: darkgoldenrod;
+    background-color: #0b0c11; 
+    font-size: 20px;
+}
+
+.contact_form input.form-control {
+    margin-bottom: 2em;
+    height: calc(2.5em + .75rem + 2px);
+}
+
+.row .btn {
+    color: darkgoldenrod;
+    border-radius: 2px solid;
+    border-color: rgb(8, 231, 64);
+}
+
+.btn:hover {
+    color: darkgoldenrod;
+}

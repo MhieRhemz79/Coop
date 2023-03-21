@@ -7,6 +7,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { Container } from 'react-bootstrap';
+import { GalleryContainer, GalleryBg,VideoBg } from './AboutElements.js';
+import Video from '../../videos/43.mp4';
 
   function About({src, alt, title, content, width, height}) {
     return (
@@ -14,13 +16,22 @@ import { Container } from 'react-bootstrap';
         <Sidebar />
         <Navbar />
 
+
+        <GalleryContainer>
+   
+   <GalleryBg>
+       <VideoBg autoPlay loop src={Video} type='video/43.mp4' />
+   </GalleryBg>
+   </GalleryContainer>
+
+
       <section>
       <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
+          alt=""
         />
         <Carousel.Caption>
           <h3>All ABOUT PEN-COOP</h3>
@@ -51,7 +62,7 @@ import { Container } from 'react-bootstrap';
         <img
           className="d-block w-100"
           src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
+          alt=""
         />
 
         <Carousel.Caption>
@@ -83,7 +94,7 @@ import { Container } from 'react-bootstrap';
         <img
           className="d-block w-100"
           src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          alt=""
         />
 
         <Carousel.Caption>

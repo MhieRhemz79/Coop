@@ -1,9 +1,10 @@
 .Carousel {
     background: #626895;
     width: 100%;
-    transition: 30ease;
-    height: 150%;
+    transition: 50ease;
+    height: 130%;
     text-align: center;
+    background-image: none;
 }
 
 .Carousel h3{
