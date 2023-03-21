@@ -20,7 +20,7 @@ const Signin = () => {
     <Navbar />
 
 
-
+    < div className="main">
     <div className="cover">
       <h1>Signin</h1>
       <input type="text" placeholder="username/email address" />
@@ -34,6 +34,7 @@ const Signin = () => {
     <div className={popupStyle}>
       <h3>Login Failed</h3>
       <p>Username or Password Incorrect</p>
+    </div>
     </div>
     </div>
     <Footer />

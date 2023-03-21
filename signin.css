@@ -3,9 +3,11 @@
     box-sizing: border-box;
 }
 
-.page{
+.main{
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding: 90px 0 90px 0;
 }
 .cover {
     background-color: green;
