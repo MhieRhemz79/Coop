@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-
 export const GalleryContainer = styled.div`
-    background: #0c0c0c;
+    background: #232a34;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +14,7 @@ export const GalleryContainer = styled.div`
 `;
 
 export const Container2 = styled.div`
-    background: #0c0c0c;
+    background: #232a34;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +53,11 @@ export const VideoBg = styled.video`
     height: 100%;
     // -o-object-fit: ;
     // object-fit: ;
-    background: #232a34;
+    background: #0c0c0c;
 `;
 
 export const Container3 = styled.div`
-    background: #0c0c0c;
+    background: #232a34;
     display: flex;
     justify-content: center;
     align-items: center;

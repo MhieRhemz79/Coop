@@ -1,10 +1,11 @@
+
+
 .Carousel {
-    background: #626895;
-    width: 100%;
+    width: 100vw;
     transition: 50ease;
-    height: 130%;
+    height: 120vh;
     text-align: center;
-    background-image: none;
+    background-color: #232a34;
 }
 
 .Carousel h3{
@@ -12,17 +13,17 @@
 }
 
 .Carousel p{
-    background-color: #FFC363;
+    background-color: #FFA303;
     color: white;
 }
 
 
 .Carousel h5{
-    background-color: #E10032;
+    background-color: #970C10;
 }
 
 .Container{
-    background-color: #FFC363;
+    background-color: #232a34;
     width: 100%;
     color: white;
 }

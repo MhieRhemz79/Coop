@@ -12,7 +12,7 @@ import Footer from '../../components/Footer';
 function Gallery () {
   return (
     <>
-    <Sidebar />
+      <Sidebar />
       <Navbar />
 
       <section>
@@ -20,37 +20,37 @@ function Gallery () {
       <br></br>
       <h2 style={{textAlign: 'center', color: 'darkgoldenrod'}}>Pen-Coop Cafe Soft Opening</h2>
       </section>
-    <GalleryContainer>
-   
-    <GalleryBg>
+      
+      <GalleryContainer>
+      <GalleryBg>
         <VideoBg autoPlay loop src={Video} type='video/v.mp4' />
-    </GalleryBg>
-    </GalleryContainer>
+      </GalleryBg>
+      </GalleryContainer>
 
-    <section2>
-    <h2 style={{textAlign: 'center', color: 'darkgoldenrod'}}>Pen-Coop Medical Missions</h2>
-    </section2>
+      <section2>
+      <h2 style={{textAlign: 'center', color: 'darkgoldenrod'}}>Pen-Coop Medical Missions</h2>
+      </section2>
 
-    <Container2>
-    <GalleryBg2>
+      <Container2>
+      <GalleryBg2>
         <VideoBg autoPlay loop src={Video2} type='video/2.mp4' />
-    </GalleryBg2>
-</Container2>
+      </GalleryBg2>
+      </Container2>
 
-<section3>
-    <h2 style={{textAlign: 'center', color: 'darkgoldenrod'}}>LiveLihood Activities</h2>
-    </section3>
+      <section3>
+      <h2 style={{textAlign: 'center', color: 'darkgoldenrod'}}>LiveLihood Activities</h2>
+      </section3>
 
-    <Container3>
-    <GalleryBg3>
+      <Container3>
+      <GalleryBg3>
         <VideoBg autoPlay loop src={Video3} type='video/re3.mp4' />
-    </GalleryBg3>
-</Container3>
+      </GalleryBg3>
+      </Container3>
 
 
 
-<Footer />
-</>
+      <Footer />
+      </>
   );
 };
 

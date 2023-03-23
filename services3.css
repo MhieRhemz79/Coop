@@ -1,0 +1,49 @@
+*{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    }
+    
+    .h1 {
+        color: white;
+    }
+    Section h1 {
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background: #700332;
+    }
+    
+    Section p{
+         padding-top: 20px;
+         padding-left: 30px;
+         padding-right: 30px;
+         padding-bottom: 20px;
+         color: white;
+         font-size: larger;
+         background: #3e425c;
+    }
+    Section .Card {
+        margin: 1em;
+    }
+
+    .Card {
+        color: white;
+        background-color: #700332;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .col .card {
+        height: fit-content;
+        width: 500vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 65px;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+    }
+    

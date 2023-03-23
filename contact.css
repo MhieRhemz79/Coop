@@ -26,11 +26,12 @@
 }
 
 .row .btn {
-    color: darkgoldenrod;
+    color: white;
     border-radius: 2px solid;
-    border-color: rgb(8, 231, 64);
+    border-color: darkgoldenrod;
+    background-color: green;
 }
 
 .btn:hover {
-    color: darkgoldenrod;
+    color: red;
 }

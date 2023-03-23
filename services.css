@@ -1,34 +1,40 @@
-*{
+/* *{
 font-family: 'Encode Sans Expanded', sans-serif;
 }
 
-Section h1 {
-    color: goldenrod;
+/* .text h1{
     padding-top: 20px;
     text-align: center;
     font-weight: 600;
+    color: white;
     background: #700332;
-}
+} */
 
 Section p{
      padding-top: 20px;
      padding-left: 30px;
      padding-right: 30px;
      padding-bottom: 20px;
-     color: #FEA303;
+     color: white;
      font-size: larger;
-     background: #626895;
+     background: #2e3148; 
 }
 Section .Card {
-    margin: 1em;
+     margin: 1em; 
 }
 
-.Card-title h2{
-    color: darkgoldenrod;
-    text-align: center;
-    background:  #970C10;
-    
-}
+.col .card {
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+} 
+
 
 
 
